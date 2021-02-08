@@ -7,13 +7,14 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 /*Elementos Base*/
 
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: arial, times, serif;
     color: white;
 }
 
@@ -58,16 +59,14 @@ color: #fff;
 .filme-principal .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .filme-principal .titulo{
-    margin-top: 5%;
+    margin-top: 15%;
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
 }
-
-
 
 .botao{
     background-color: rgba(0,0,0,.50);
@@ -84,7 +83,8 @@ color: #fff;
 
 .botao:hover{
     background-color: white;
-    color:black
+    color:black;
+    
 }
 
 .botao i{
@@ -103,4 +103,8 @@ color: #fff;
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
 }
