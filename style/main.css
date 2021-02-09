@@ -8,6 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    color: white;
 }
 
 /*Elementos Base*/
@@ -40,7 +41,7 @@ header nav a{
 }
 
 header nav a:hover{
-color: #fff;
+color: rgba(3, 221, 221, 0.26);
 }
 
 /*Filme Principal*/
@@ -82,7 +83,7 @@ color: #fff;
 }
 
 .botao:hover{
-    background-color: white;
+    background-color: rgba(185, 14, 14, 0.623);
     color:black;
     
 }
@@ -107,4 +108,17 @@ color: #fff;
 
 .carrosel-filmes{
     margin-top: 5px;
+    margin-left: 0px;
+}
+
+footer .title-rodape{
+    text-align: center;
+    flex-direction: row nowrap center; 
+    margin: 10px 0 0 0;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    clear: both;
+    color: rgb(250, 255, 250);
+    font-size: 15px;
+    font-family: "arial", sans-serif;
 }
